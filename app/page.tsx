@@ -38,13 +38,10 @@ export default function Home() {
           </p>
         </Link>
       </section>
-      <section className="section px-4 py-8">
+      <section className="section px-4 py-8 scroll-mt-28" id="about">
         <div className="w-full flex flex-col lg:flex-row items-center lg:items-start justify-center gap-20 h-full lg:gap-20">
           {/* Profile Image */}
-          <div
-            id="#about"
-            className="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 lg:w-1/6 lg:h-1/6 flex-shrink-0"
-          >
+          <div className="w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 lg:w-1/6 lg:h-1/6 flex-shrink-0">
             <Image
               src="/assets/profile.png"
               layout="responsive"
