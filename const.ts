@@ -96,9 +96,9 @@ export const Projects = [
     tech: ["Next.js", "Typescript", "Tailwind.css", "Vercel"],
   },
   {
-    name: "Personal Website & Portfolio",
-    desc: "This personal portfolio project is a responsive web application built using Next.js and Tailwind CSS, designed to showcase my professional journey as a Software Engineer, full-stack, machine learning, and blockchain developer. It features sections for my background, tech stack, selected projects, and contact information — all optimized for a smooth user experience.",
-    link: "https://github.com/adrianuscharlie/personal-website",
-    tech: ["Next.js", "Typescript", "Tailwind.css", "Vercel"],
+    name: "CNN Multitask Classification",
+    desc: "Create Deep Convulutional Neural Network model to do multitask classification. This model can classify gender and emotion of people from picture or video straming. This model using pre-trained model VGG16 for the baseline, and add some modification in last layer to do multitask classification.",
+    link: "https://github.com/adrianuscharlie/CNN-Multitask-Classification",
+    tech: ["Python", "Tensorflow"],
   },
 ];
