@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Experience } from "@/types/interface";
 const ExperienceCard = ({ experience }: { experience: Experience }) => {
   return (
-    <div className="p-5 shadow rounded  border text-justify border-white bg-black ">
+    <div className="p-5 shadow rounded  border text-justify border-white bg-black text-white ">
       <div className="flex flex-col lg:flex-row gap gap-5">
         <Image
           src={experience.logo}
