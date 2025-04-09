@@ -11,7 +11,7 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => {
           height={100}
           className="object-contain"
         />
-        <div className="">
+        <div className="text-white">
           <h2 className="font-bold lg:text-xl">{experience.position}</h2>
           <h3 className="lg:text-lg">{experience.company}</h3>
           <p className="text-sm lg:text-md text-yellow-500">
