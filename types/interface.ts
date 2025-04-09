@@ -11,5 +11,4 @@ export interface Project {
   desc: string;
   link: string;
   tech: string[];
-  images: string;
 }
