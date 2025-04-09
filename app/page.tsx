@@ -17,7 +17,9 @@ export default function Home() {
     <main className="flex flex-col row-start-2 w-full justify-center items-center font-[family-name:var(--font-geist-sans)] bg-black">
       <section className="section" id="#home">
         <div className="w-full flex flex-col gap-y-3 lg:mb-5 text-center">
-          <h1 className="font-bold text-3xl lg:text-7xl">Adrianus Charlie</h1>
+          <h1 className="font-bold text-3xl lg:text-7xl text-white">
+            Adrianus Charlie
+          </h1>
           <AnimatedText />
         </div>
         <h3 className="text-md text-gray-300 lg:px-56 lg:text-lg">
