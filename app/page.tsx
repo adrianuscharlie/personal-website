@@ -4,6 +4,9 @@ import {
   Github,
   Download,
   PaperclipIcon,
+  Linkedin,
+  Mail,
+  PhoneCall,
 } from "lucide-react";
 import Link from "next/link";
 import { Experiences } from "@/const";
@@ -12,13 +15,15 @@ import ProjectCard from "./components/ProjectCard";
 import TechStackMarquee from "./components/TechStacks";
 import Image from "next/image";
 import AnimatedText from "./components/TransitionText";
+import { FaWhatsapp } from "react-icons/fa";
+import { BsWhatsapp } from "react-icons/bs";
 export default function Home() {
   return (
-    <main className="flex flex-col row-start-2 w-full justify-center items-center font-[family-name:var(--font-geist-sans)] bg-black">
+    <main className="flex flex-col row-start-2 w-full justify-center items-center font-[family-name:var(--font-geist-sans)] ">
       <section className="section" id="#home">
         <div className="w-full flex flex-col gap-y-3 lg:mb-5 text-center">
-          <h1 className="font-bold text-3xl lg:text-7xl text-white">
-            Adrianus Charlie
+          <h1 className="font-bold text-3xl lg:text-7xl bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+            Adrianus Charlie H.A
           </h1>
           <AnimatedText />
         </div>
@@ -32,12 +37,10 @@ export default function Home() {
         </h3>
         <Link
           href={"#about"}
-          className="flex items-center justify-center gap-3 px-3 py-2.5  animate-bounce cursor-pointer text-lg lg:text-2xl "
+          className="flex items-center text-white shadow-lg hover:underline bg-black border border-yellow-500 rounded-xl justify-center gap-3 px-3 py-2.5  animate-bounce cursor-pointer text-lg lg:text-xl "
         >
-          <ArrowBigDownDashIcon className="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 bg-clip-text" />
-          <p className="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">
-            Let&#39;s Know Me Better!
-          </p>
+          <ArrowBigDownDashIcon className="text-white" />
+          <p className="text-white">Let&#39;s Know Me Better!</p>
         </Link>
       </section>
       <section className="section px-4 py-8 scroll-mt-28" id="about">
@@ -115,14 +118,14 @@ export default function Home() {
           </div>
         </div>
         <Link
-          className=" flex items-center justify-center underline gap-3 text-white px-3 mt-10 "
-          href={"https://github.com/adrianuscharlie/"}
+          className=" flex items-center justify-center text-sm lg:text-lg  gap-3 px-3 mt-10 py-2.5 rounded-xl border border-whitebg-white text-black bg-white hover:underline"
+          href={"https://github.com/adrianuscharlie?tab=repositories"}
           target="_blank"
         >
-          <Github /> View More on Github
+          <Github className=" " size={26} /> <span>View More on Github</span>
         </Link>
       </section>
-      <section className="section py-16 px-4 lg:px-20 bg-black" id="tech">
+      <section className="section py-16 px-4 lg:px-20" id="tech">
         <div className="w-full max-w-7xl mx-auto flex flex-col gap-y-8">
           <div className="text-center">
             <h1 className="font-bold text-3xl lg:text-5xl text-white">
@@ -138,21 +141,55 @@ export default function Home() {
           <TechStackMarquee />
         </div>
       </section>
-      <section className="section" id="#additional">
+      <section className="section" id="contacts">
         <div className="text-center">
           <h1 className="font-bold text-3xl lg:text-5xl text-white">
-            Additional Information
+            Contacts & Additional Information
           </h1>
           <p className="mt-4 text-gray-400 text-base max-w-2xl mx-auto">
-            Here&#39;s a collection of my certifications and resume to support
-            my professional background and skills.
+            Feel free to reach out if you&#39;d like to connect, collaborate, or
+            just say hi! Below, you&#39;ll also find a collection of my
+            certifications and resume that showcase my professional experience
+            and skills. I&#39;m always open to exciting opportunities and
+            meaningful conversations.
+          </p>
+        </div>
+        <div className="grid grid-cols-2 lg:flex text-sm lg:text-lg items-center justify-center gap gap-3 text-white">
+          <Link
+            href={"https://linkedin.com/in/adrianuscharlie"}
+            target="_blank"
+            className="flex justify-center gap-3 items-center  border px-3 py-2 rounded-lg hover:underline  shadow-lg border-white hover:text-yellow-500  hover:border-yellow-500"
+          >
+            <Linkedin />
+            <span className="font-bold">Linkedin</span>
+          </Link>
+          <Link
+            href={"mailto:adrianus.charlie02@gmail.com"}
+            target="_blank"
+            className="flex justify-center gap-3 items-center  border px-3 py-2 rounded-lg hover:underline  shadow-lg border-white hover:text-yellow-500 hover:border-yellow-500"
+          >
+            <Mail />
+            Email
+          </Link>
+          <Link
+            href={"https://wa.me/6281381429485"}
+            target="_blank"
+            className="flex justify-center gap-3 items-center border px-3 py-2 rounded-lg hover:underline  shadow-lg border-white hover:text-yellow-500  hover:border-yellow-500"
+          >
+            <BsWhatsapp />
+            Whatsapp
+          </Link>
+
+          <p className="flex justify-center gap-3 items-center  border px-3 py-2 rounded-lg hover:underline  shadow-lg border-white hover:text-yellow-500  hover:border-yellow-500">
+            <PhoneCall />
+            <span>6281381429485</span>
           </p>
         </div>
         <div className="flex items-center justify-center gap gap-5">
           <a
-            href={"/adrianuscharlie_resume.pdf"}
-            download={"/adrianuscharlie_resume.pdf"}
-            className="flex gap-5 underline text-md lg:text-lg   hover:text-black hover:bg-white  text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300"
+            href={"/adrianuscharlie_cv.pdf"}
+            download={"/adrianuscharlie_cv.pdf"}
+            className="flex gap-3 underline text-sm lg:text-lg px-3 py-2  hover:text-black hover:bg-white  text-white font-semibold rounded-lg shadow-md transition duration-300"
           >
             <Download /> <span>Download Resume</span>
           </a>
@@ -161,11 +198,17 @@ export default function Home() {
               "https://drive.google.com/drive/folders/1PocPkKW_cGBzyz-Vznu_WZRcK7LRcvJI?usp=drive_link"
             }
             target="_blank"
-            className="flex gap-5 underline text-md lg:text-lg  hover:text-black hover:bg-white  text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300"
+            className="flex gap-3 underline text-sm lg:text-lg px-3 py-2  hover:text-black hover:bg-white  text-white font-semibold  rounded-lg shadow-md transition duration-300"
           >
             <PaperclipIcon /> <span>Certificates</span>
           </Link>
         </div>
+        <h1 className="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent  mt-10 lg:mt-30 text-xl lg:text-3xl font-bold underline ">
+          {'"Never stop learning — because life never stops teaching!"'}
+        </h1>
+        <h2 className="text-yellow-500 font-semibold text-lg lg:text-xl">
+          Have a good day :)
+        </h2>
       </section>
     </main>
   );

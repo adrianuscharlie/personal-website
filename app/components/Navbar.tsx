@@ -7,14 +7,9 @@ import Link from "next/link";
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Force dark theme on mount
-  useEffect(() => {
-    document.documentElement.classList.add("dark");
-  }, []);
-
   return (
-    <nav className="z-50 sticky top-0 w-full flex justify-center bg-black shadow-sm py-3 px-4">
-      <div className="w-full max-w-7xl flex justify-between items-center bg-neutral-900 rounded-full px-6 py-2 shadow-md">
+    <nav className="z-50 sticky top-0 w-full flex justify-center  py-3 px-4 ">
+      <div className="w-full max-w-7xl flex justify-between items-center  rounded-full px-6 py-2 shadow-md bg-black border border-gray-800">
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Image
@@ -23,7 +18,7 @@ const Navbar = () => {
             width={30}
             height={30}
           />
-          <span className="font-semibold text-lg text-white">CharlieDev</span>
+          <span className="font-semibold text-lg text-white">Charlie.Dev</span>
         </div>
 
         {/* Center Navigation (Desktop) */}
@@ -39,6 +34,9 @@ const Navbar = () => {
           </li>
           <li className="hover:text-yellow-500 cursor-pointer">
             <Link href={"#projects"}>Projects</Link>
+          </li>
+          <li className="hover:text-yellow-500 cursor-pointer">
+            <Link href={"#contacts"}>Contacts</Link>
           </li>
         </ul>
 
@@ -95,6 +93,9 @@ const Navbar = () => {
           </li>
           <li className="hover:text-yellow-500 cursor-pointer">
             <Link href={"/#projects"}>Projects</Link>
+          </li>
+          <li className="hover:text-yellow-500 cursor-pointer">
+            <Link href={"/#contacts"}>Contacts</Link>
           </li>
 
           <div className="flex gap-3 pt-2">
