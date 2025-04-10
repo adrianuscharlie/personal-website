@@ -15,7 +15,6 @@ import ProjectCard from "./components/ProjectCard";
 import TechStackMarquee from "./components/TechStacks";
 import Image from "next/image";
 import AnimatedText from "./components/TransitionText";
-import { FaWhatsapp } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 export default function Home() {
   return (
