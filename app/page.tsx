@@ -60,15 +60,15 @@ export default function Home() {
               About Me
             </h1>
             <p className="mt-4 text-gray-400 text-base">
-              Hi! I'm Adrianus Charlie, a tech enthusiast based in Yogyakarta,
-              Indonesia. I&#39;m passionate about building software and love
-              exploring a wide range of technologies—from full-stack development
-              to backend systems and APIs. I enjoy turning ideas into real-world
-              solutions and constantly expanding my knowledge across different
-              tech stacks. Outside of coding, I enjoy music, films, financial
-              markets, and playing sports to recharge. I see learning as a
-              lifelong journey and am always eager to grow—both as a software
-              engineer and as a person.
+              Hi! I&#39;m Adrianus Charlie, a tech enthusiast based in
+              Yogyakarta, Indonesia. I&#39;m passionate about building software
+              and love exploring a wide range of technologies—from full-stack
+              development to backend systems and APIs. I enjoy turning ideas
+              into real-world solutions and constantly expanding my knowledge
+              across different tech stacks. Outside of coding, I enjoy music,
+              films, financial markets, and playing sports to recharge. I see
+              learning as a lifelong journey and am always eager to grow—both as
+              a software engineer and as a person.
             </p>
           </div>
         </div>
