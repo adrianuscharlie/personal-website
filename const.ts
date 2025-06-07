@@ -90,10 +90,10 @@ export const Projects = [
     tech: ["Next.js", "Solidity", "Tailwind.css", "Metamask"],
   },
   {
-    name: "Personal Website & Portfolio",
-    desc: "This personal portfolio project is a responsive web application built using Next.js and Tailwind CSS, designed to showcase my professional journey as a Software Engineer, full-stack, machine learning, and blockchain developer. It features sections for my background, tech stack, selected projects, and contact information — all optimized for a smooth user experience.",
-    link: "https://github.com/adrianuscharlie/personal-website",
-    tech: ["Next.js", "Typescript", "Tailwind.css", "Vercel"],
+    name: "Golang QR-Payment",
+    desc: "This service facilitates QRIS CPM payments via DANA, encompassing functionalities for payment initiation, status querying, and order cancellation. It adheres to the specifications outlined in the DANA Merchant Portal API documentation.",
+    link: "https://github.com/adrianuscharlie/Golang-Payment-QR",
+    tech: ["Golang", "Docker"],
   },
   {
     name: "CNN Multitask Classification",

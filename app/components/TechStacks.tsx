@@ -17,10 +17,12 @@ import {
   SiPytorch,
   SiSolidity,
   SiWeb3Dotjs,
+  SiGo,
 } from "react-icons/si";
 
 const row1 = [
   SiSharp,
+  SiGo,
   SiPython,
   SiJavascript,
   SiNodedotjs,

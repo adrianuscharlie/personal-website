@@ -27,12 +27,10 @@ export default function Home() {
           <AnimatedText />
         </div>
         <h3 className="text-md text-gray-300 lg:px-56 lg:text-lg">
-          Specializing in developing APIs and web services, as well as
-          full-stack applications using .NET Core, Next.js, and Node.js. With a
-          strong foundation in both SQL and NoSQL databases, scalable solutions
-          are created to meet diverse business needs. Deployment is efficiently
-          managed using Docker to ensure consistency across environments.
-          Currently exploring blockchain and Web3 technologies
+          Versatile Software Engineer skilled in .NET Core, Next.js, Node.js,
+          and Go. Experienced in building robust APIs, web services, and
+          scalable applications using SQL/NoSQL databases and Docker. Currently
+          expanding into blockchain and Web3 technologies.
         </h3>
         <Link
           href={"#about"}
@@ -62,16 +60,15 @@ export default function Home() {
               About Me
             </h1>
             <p className="mt-4 text-gray-400 text-base">
-              Hi! I&#39;m Adrianus Charlie, a tech enthusiast based in
-              Yogyakarta, Indonesia. I love exploring new things—especially in
-              the world of software development, blockchain, and emerging
-              technologies. Whether it&#39;s building fullstack apps, diving
-              into machine learning, or experimenting with Web3, I&#39;m always
-              eager to learn and grow. Outside of code, you&#39;ll find me
-              enjoying music, watching films, keeping up with financial markets,
-              or playing sports to recharge. I believe learning is a lifelong
-              journey, and I&#39;m excited to keep leveling up—both as a
-              developer and as a person.
+              Hi! I'm Adrianus Charlie, a tech enthusiast based in Yogyakarta,
+              Indonesia. I&#39;m passionate about building software and love
+              exploring a wide range of technologies—from full-stack development
+              to backend systems and APIs. I enjoy turning ideas into real-world
+              solutions and constantly expanding my knowledge across different
+              tech stacks. Outside of coding, I enjoy music, films, financial
+              markets, and playing sports to recharge. I see learning as a
+              lifelong journey and am always eager to grow—both as a software
+              engineer and as a person.
             </p>
           </div>
         </div>
